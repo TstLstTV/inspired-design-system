@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useTheme } from '../contexts/ThemeContext';
 
 export default function Resources() {
@@ -22,35 +21,10 @@ export default function Resources() {
       title: 'IA no Marketing: o futuro é agora',
       description: 'Descubra como usar inteligência artificial para escalar suas campanhas.',
       readTime: '45 min',
-=======
-export default function Resources() {
-  const resources = [
-    {
-      category: 'Guide',
-      title: 'The Complete Email Marketing Playbook for 2024',
-      description: 'Learn proven strategies to boost your email marketing ROI with AI-powered personalization.',
-      readTime: '12 min read',
-      color: 'bg-[#22C55E]',
-    },
-    {
-      category: 'Case Study',
-      title: 'How TechCo Increased Revenue by 340%',
-      description: 'Discover how a SaaS company transformed their customer journey with FlowSync automation.',
-      readTime: '8 min read',
-      color: 'bg-[#38BDF8]',
-    },
-    {
-      category: 'Webinar',
-      title: 'AI-Powered Marketing: What\'s Next?',
-      description: 'Join industry experts as they discuss the future of AI in marketing automation.',
-      readTime: '45 min watch',
-      color: 'bg-[#A78BFA]',
->>>>>>> dda4c44ee0519157f596c42a03e9801e8603196c
     },
   ];
 
   return (
-<<<<<<< HEAD
     <section id="resources" className={`py-24 ${isDark ? 'bg-slate-950' : 'bg-white'}`}>
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Section Header */}
@@ -77,32 +51,10 @@ export default function Resources() {
             Ver todos os recursos
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-=======
-    <section id="resources" className="py-20 lg:py-32 bg-[#020617]">
-      <div className="max-w-[1200px] mx-auto px-6 lg:px-8">
-        {/* Section header */}
-        <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-12">
-          <div>
-            <span className="inline-block text-[#22C55E] text-sm font-semibold uppercase tracking-wider mb-4">
-              Resources
-            </span>
-            <h2 className="text-3xl lg:text-4xl font-bold text-[#F9FAFB] leading-tight">
-              Learn from the best
-            </h2>
-          </div>
-          <a
-            href="#"
-            className="inline-flex items-center gap-2 text-[#22C55E] font-semibold hover:gap-3 transition-all"
-          >
-            View all resources
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
->>>>>>> dda4c44ee0519157f596c42a03e9801e8603196c
             </svg>
           </a>
         </div>
 
-<<<<<<< HEAD
         {/* Resources Grid */}
         <div className="grid md:grid-cols-3 gap-6">
           {resources.map((resource) => (
@@ -142,50 +94,6 @@ export default function Resources() {
                 {resource.description}
               </p>
             </a>
-=======
-        {/* Resources grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {resources.map((resource, index) => (
-            <article
-              key={index}
-              className="group bg-[#0F172A] border border-[#1E293B] rounded-2xl overflow-hidden transition-all duration-300 hover:border-[#22C55E]/30 hover:-translate-y-1"
-            >
-              {/* Image placeholder */}
-              <div className="h-48 bg-gradient-to-br from-[#1E293B] to-[#0F172A] relative overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className={`w-16 h-16 ${resource.color} rounded-2xl opacity-20 group-hover:scale-110 transition-transform duration-300`} />
-                </div>
-                {/* Category badge */}
-                <div className="absolute top-4 left-4">
-                  <span className={`${resource.color} text-[#020617] px-3 py-1 rounded-full text-xs font-semibold`}>
-                    {resource.category}
-                  </span>
-                </div>
-              </div>
-
-              {/* Content */}
-              <div className="p-6">
-                <h3 className="text-lg font-semibold text-[#F9FAFB] mb-3 group-hover:text-[#22C55E] transition-colors">
-                  {resource.title}
-                </h3>
-                <p className="text-[#9CA3AF] text-sm mb-4 leading-relaxed">
-                  {resource.description}
-                </p>
-                <div className="flex items-center justify-between">
-                  <span className="text-[#6B7280] text-xs">{resource.readTime}</span>
-                  <a
-                    href="#"
-                    className="inline-flex items-center gap-1 text-[#22C55E] text-sm font-medium group-hover:gap-2 transition-all"
-                  >
-                    Read more
-                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </article>
->>>>>>> dda4c44ee0519157f596c42a03e9801e8603196c
           ))}
         </div>
       </div>

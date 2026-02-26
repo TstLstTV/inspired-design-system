@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
@@ -14,51 +13,6 @@ body {
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-=======
-@import "tailwindcss";
-
-:root {
-  /* Background colors */
-  --color-bg-primary: #020617;
-  --color-bg-elevated: #020817;
-  --color-surface: #0F172A;
-  
-  /* Border colors */
-  --color-border-subtle: #1E293B;
-  --color-border-strong: #22C55E;
-  
-  /* Primary/Accent colors */
-  --color-primary: #22C55E;
-  --color-primary-soft: #4ADE80;
-  --color-accent: #38BDF8;
-  
-  /* Text colors */
-  --color-text-primary: #F9FAFB;
-  --color-text-secondary: #9CA3AF;
-  --color-text-muted: #6B7280;
-  --color-text-on-primary: #020617;
-  
-  /* Tag/Badge colors */
-  --color-tag-bg: #F9FAFB;
-  --color-tag-text: #020617;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background-color: var(--color-bg-primary);
-  color: var(--color-text-primary);
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
->>>>>>> dda4c44ee0519157f596c42a03e9801e8603196c
 }
 
 /* Custom scrollbar */
@@ -67,24 +21,15 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-<<<<<<< HEAD
   background: #0f172a;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #1e293b;
-=======
-  background: var(--color-bg-primary);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--color-border-subtle);
->>>>>>> dda4c44ee0519157f596c42a03e9801e8603196c
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-<<<<<<< HEAD
   background: #6b7280;
 }
 
@@ -92,7 +37,4 @@ body {
 ::selection {
   background-color: #22C55E;
   color: #020617;
-=======
-  background: var(--color-text-muted);
->>>>>>> dda4c44ee0519157f596c42a03e9801e8603196c
 }
